@@ -6,7 +6,7 @@ const cuidadoresRouter = Router();
 
 const cuidadoresController = new CuidadoresController();
 
-cuidadoresRouter.get('/', cuidadoresController.index);
+// cuidadoresRouter.get('/', cuidadoresController.index);
 cuidadoresRouter.post('/', cuidadoresController.create);
 
 export default cuidadoresRouter;
