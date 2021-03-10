@@ -20,8 +20,6 @@ class CuidadoresController {
       return response.json({ error: 'Já existe um registro em nossos sistema!' });
     }
 
-    return response.json(cuidadores);
-
   }
 
   async create(request: Request, response: Response) {
